@@ -8,6 +8,12 @@
     "renovate"
   ],
   "enabledManagers": ["dockerfile", "npm"],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["*"],
+      "enabled": false
+    }
+  ],
   "vulnerabilityAlerts": {
     "enabled": true
   }
