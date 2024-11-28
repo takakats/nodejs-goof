@@ -11,7 +11,7 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
-      "enabled": false
+      "enabled": true
     }
   ],
   "vulnerabilityAlerts": {
