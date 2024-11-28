@@ -11,7 +11,7 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["security"],
-      "addLabels": "security"
+      "addLabels": ["security"]
     },
     {
       "matchPackagePatterns": ["*"],
